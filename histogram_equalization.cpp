@@ -24,9 +24,7 @@ int main()
 	//对图像进行通道合并
 	merge(res_channels, 3, resMat);
 
-	imshow("B", src_channels[0]);
-	imshow("G", src_channels[1]);
-	imshow("R", src_channels[2]);
+	imshow("srcMat", srcMat);
 	imshow("resMat", resMat);
 
 	waitKey(0);
